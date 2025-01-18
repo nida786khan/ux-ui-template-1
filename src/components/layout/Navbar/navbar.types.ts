@@ -17,3 +17,4 @@ export type MenuListData = (Omit<MenuItem, "children" | "type"> & {
 })[];
 
 export type NavMenu = MenuItem[];
+

@@ -32,13 +32,16 @@ const ResTopNavbar = ({ data }: { data: NavMenu }) => {
           className="max-w-[22px] max-h-[22px]"
         />
       </SheetTrigger>
-      <SheetContent side="left" className="overflow-y-auto">
+      <SheetContent side="left" className="overflow-y-auto bg-white shadow-lg">
+
         <SheetHeader className="mb-10">
           <SheetTitle asChild>
             <SheetClose asChild>
-              <Link href="/" className={cn([integralCF.className, "text-2xl"])}>
-                SHOP.CO
-              </Link>
+            <Link href="/" className={cn([integralCF.className, "text-2xl", "text-black"])}>
+  SHOP.CO
+</Link>
+
+
             </SheetClose>
           </SheetTitle>
         </SheetHeader>
